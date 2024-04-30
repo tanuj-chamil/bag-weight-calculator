@@ -1,12 +1,9 @@
 import { useState } from "react"
 import "./App.css"
-import Box from "@mui/material/Box"
 import TextField from "@mui/material/TextField"
 import Grid from "@mui/material/Grid"
-import InputLabel from "@mui/material/InputLabel"
 import Button from "@mui/material/Button"
 import { Typography } from "@mui/material"
-import Divider from "@mui/material/Divider"
 
 function App() {
   const [w, setW] = useState(15)
