@@ -14,7 +14,7 @@ function App() {
   const [weight, setWeight] = useState(0)
 
   function calculateWeight() {
-    const area = (2 * (w + h) * l) / 1000
+    const area = (2 * (w + h) * bagl) / 10000
     setWeight(Math.round(area * gsm * 100) / 100)
   }
 
